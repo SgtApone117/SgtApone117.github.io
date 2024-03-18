@@ -1,0 +1,14 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+
+module:
+  imports:
+  - path: github.com/SgtApone117/SgtApone117.github.io
+  mounts:
+  - source: ./node_modules/flag-icon-css/flags
+    target: static/flags
+  - source: ./node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: ./node_modules/katex/dist/fonts
+    target: static/fonts
