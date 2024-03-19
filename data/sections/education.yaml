@@ -1,0 +1,35 @@
+# Section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # use education-alt.html for another template
+  enable: true
+  weight: 4 # change the weight to reorder the sections
+  showOnNavbar: true
+  # Can optionally hide the education in sections
+  # hideTitle: true
+
+degrees:
+  - name: Master's in Computer Science
+    icon: fa-solid fa-laptop-code
+    timeframe: 2023-2025
+    institution:
+      name: University of The Pacific
+      url: "#"
+      # logo: # Put the image in static 
+    grade:
+      scale: CGPA
+      achieved: 4.0
+      outOf: 4
+
+  - name: Bachelor's in Computer Science
+    icon: fa-solid fa-laptop-code
+    timeframe: 2015-2019
+    institution:
+      name: Manipal Institute of Technology
+      url: "#"
+      # logo: # Put the image in static 
+    grade:
+      scale: CGPA
+      achieved: 7.2
+      outOf: 10
