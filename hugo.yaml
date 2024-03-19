@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: "Sumeet's Portfolio Website"
+title: "Sumeet's Portfolio"
 
 module:
   imports:
