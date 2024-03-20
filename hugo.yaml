@@ -43,6 +43,8 @@ params:
   # Github repo URL of your site
   gitRepo: https://github.com/SgtApone117/SgtApone117.github.io
 
+  background: images/background/background.png
+
   features:
     # Enable portfolio section
     portfolio:
